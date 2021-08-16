@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form lấy survey khách hàng</title>
+</head>
+<body>
+    <form>
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
+        <hr>
+        <label for="a"><b>What is your age range?</b></label> <br>
+        <select id="a" style="column-span: 50">
+            <option>18-24</option>
+            <option>24-34</option>
+            <option>35-50</option>
+            <option>50+</option>
+        </select> <br><br>
+         <label for="b"><b>What is your yearly income range?</b></label> <br>
+         <select id="b">
+            <option>$0 - $25,000</option>
+            <option>$25,001 - $50,000</option>
+            <option>$50,001 - $100,000</option>
+            <option>$100,001+</option>
+        </select> <br><br>
+        <label for="c"><b>Gender identity</b></label> <br>
+        <input id="c" type="radio" name="gtinh"> Male <br>
+        <input type="radio" name="gtinh"> Female <br>
+        <input type="radio" name="gtinh"> Nonbinary <br>
+        <input type="radio" name="gtinh"> Other <input type="text"> <br><br>
+        <label for="d"><b>Which of the following product have you purchased in the last 2 months.Please check all that apply.</b></label>
+        <br>
+        <input id="d" type="checkbox"> Product 1 <br>
+        <input type="checkbox"> Product 2 <br>
+        <input type="checkbox"> Product 3 <br><br>
+        <label for="e"><b>How often would you use our new product?</b></label> <br>
+        <input id="e" type="radio" name="often"> Daily <br>
+        <input type="radio" name="often"> Weekly <br>
+        <input type="radio" name="often"> Monthly <br><br>
+        <label for="f"><b>What would you pay for the new product?</b></label><br>
+        $ <input id="f" type="number">Dollars . <input type="number">Cents <br><br>
+        <label for="g"><b>What features would you like to see in the new product.</b></label> <br>
+        <textarea cols="90" rows="5" id="g"></textarea>
+    </form>
+</body>
+</html>
