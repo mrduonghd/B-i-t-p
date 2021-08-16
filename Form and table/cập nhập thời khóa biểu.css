@@ -1,0 +1,44 @@
+
+
+#b {
+    margin: auto;
+    width: 25%;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 100px;
+    width: 700px;
+    text-align: center;
+}
+
+.a {
+    background-color: #feff20;
+}
+
+p {
+    color: #6078ff;
+}
+
+h1 {
+    color: #6078ff;
+    text-align: center;
+}
+
+#c {
+    margin: auto;
+    width: 25%;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 100px;
+    width: 650px;
+    color: #6078ff;
+}
+
+.d {
+    text-align: right;
+}
+
+#e {
+    background-color: #ff9f26;
+}
+
+

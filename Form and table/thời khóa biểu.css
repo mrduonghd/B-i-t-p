@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+
+}
+
+table {
+    margin: auto;
+    width: 25%;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+}
+
+#a {
+    background-color: #feff20;
+}
