@@ -1,0 +1,23 @@
+body {
+    background-color: #ff9f26;
+}
+
+td {
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+}
+
+.a {
+    background-color: aliceblue;
+}
+
+.b {
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    padding-top: 65px;
+}

@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    color: #6164ff;
+}
+
+td {
+    border: 3px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+}
+
+#a {
+    background-color: #ff0300;
+    color: #fefdff;
+}
+
+.b {
+    background-color: #ff9f26;
+    color: #fefdff;
+}
+
+#c {
+    background-color: #4632ff;
+    color: #fefdff;
+}
+
+.d {
+    color: #ff0300;
+}
+
+.e {
+    color: #4632ff;
+}
+
+span {
+    font-size: 7px;
+}
+
+.f {
+    color: #070807;
+}
