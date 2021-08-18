@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo một ứng dụng máy tính đơn giản</title>
+</head>
+<body>
+    <form action="">
+        <input id="a" type="number"> <input id="b" type="number"> <br><br>
+        <button onclick="tong()">Addition(+)</button>
+        <button onclick="hieu()">Subtraction(-)</button>
+        <button onclick="tich()">Multiplication(x)</button>
+        <button onclick="thuong()">Division(/)</button>
+    </form>
+    <script>
+        function tong() {
+            var c = +document.getElementById('a').value;
+                d = +document.getElementById('b').value;
+            alert(c+d);
+        }
+        function hieu() {
+            var c = +document.getElementById('a').value;
+                d = +document.getElementById('b').value;
+            alert(c-d)
+        }
+        function tich() {
+            var c = +document.getElementById('a').value;
+                d = +document.getElementById('b').value;
+            alert(c*d);
+        }
+        function thuong() {
+            var c = +document.getElementById('a').value;
+                d = +document.getElementById('b').value;
+            alert(c/d)
+        }
+    </script>
+</body>
+</html>
