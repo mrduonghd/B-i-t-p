@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="text-align: center; padding-top:200px">Do you love me?</h1>
+<button onclick="al()" style="margin-left: 700px">YES</button>
+<button id="no" onmouseover="bl()" style="position:absolute;margin-left: 40px">NO</button>
+
+<script>
+    function al() {
+        alert('<3');
+    }
+
+    function bl() {
+        var x = Math.round(Math.random() * window.innerWidth);
+        var y = Math.round(Math.random() * window.innerHeight);
+        document.getElementById('no').style.left = x +'px';
+        document.getElementById('no').style.top = y +'px';
+    }
+</script>
+</body>
+</html>

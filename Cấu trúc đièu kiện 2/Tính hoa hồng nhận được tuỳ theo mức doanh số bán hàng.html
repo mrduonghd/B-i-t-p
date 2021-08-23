@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng</title>
+</head>
+<body>
+<script>
+    let doanhthu = prompt('nhập tổng doanh thu');
+    if (doanhthu < 200000) {
+        alert('Hoa hồng là ' + ((doanhthu*3)/100) + 'VND')
+    }else if (doanhthu < 500000) {
+        alert('Hoa hồng là ' + ((doanhthu*5)/100) + 'VND')
+    }else {
+        alert('Hoa hồng là ' + ((doanhthu*10)/100) + 'VND')
+    }
+</script>
+</body>
+</html>

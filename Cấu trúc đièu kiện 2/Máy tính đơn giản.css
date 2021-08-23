@@ -1,0 +1,60 @@
+div {
+    border: 1px solid white;
+    width: 350px;
+    margin: auto;
+    height: 570px;
+    padding-top: 100px;
+    padding-left: 10px;
+
+}
+
+button {
+    height: 80px;
+    width: 80px;
+
+}
+
+
+
+input {
+    width: 315px;
+    height: 70px;
+    text-align: right;
+    padding-left: 10px;
+}
+
+body {
+    background-image: url("./ảnh/may bay.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#q {
+    color: #fefdff;
+}
+
+#w {
+    color: #fefdff;
+    padding-left: 150px;
+}
+
+#xoa {
+    background-color: #ff0300;
+}
+
+.so {
+    background-color: #ff7c00;
+}
+
+#bang {
+    background-color: #6a64ff;
+}
+
+.h {
+    color: #fefdff;
+    background-color: #070807;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="padding-left: 300px; padding-top: 100px">
+    <img onclick="changeimg('img1',1);" id="img1" src="ảnh/may bay 960x540 1.jpg" alt="maybay">
+    <img onclick="changeimg('img2',2);" id="img2" src="ảnh/run 960x540 2.jpg" alt="run">
+    <img onclick="changeimg('img3',3);" id="img3" src="ảnh/tiger 960x540 3.jpg" alt="tiger">
+</div>
+<script>
+    function changeimg(id , number) {
+        let a = document.getElementById(id).getAttribute('alt');
+        if (a==='maybay') {
+            document.getElementById(id).setAttribute('src' , 'ảnh/run 960x540 ' + number +'.jpg');
+            document.getElementById(id).setAttribute('alt' , 'run');
+        }else if (a=== 'run') {
+            document.getElementById(id).setAttribute('src' , 'ảnh/tiger 960x540 ' + number +'.jpg');
+            document.getElementById(id).setAttribute('alt' , 'tiger');
+        }else {
+            document.getElementById(id).setAttribute('src' , 'ảnh/may bay 960x540 ' + number +'.jpg');
+            document.getElementById(id).setAttribute('alt' , 'maybay');
+        }
+        checkWin();
+    }
+
+    function checkWin() {
+        let b = document.getElementById('img1').getAttribute('alt');
+        let c = document.getElementById('img2').getAttribute('alt');
+        let d = document.getElementById('img3').getAttribute('alt');
+        if (b === c && c === d) {
+            document.getElementById('img1').style.border = '2px solid red'
+            document.getElementById('img2').style.border = '2px solid red'
+            document.getElementById('img3').style.border = '2px solid red'
+        } else {
+            document.getElementById('img1').style.border = '';
+            document.getElementById('img2').style.border = '';
+            document.getElementById('img3').style.border = '';
+        }
+    }
+</script>
+</body>
+</html>

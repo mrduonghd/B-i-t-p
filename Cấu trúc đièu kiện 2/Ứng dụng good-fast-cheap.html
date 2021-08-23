@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng good-fast-cheap</title>
+    <link rel="stylesheet" href="Ứng dụng good-fast-cheap.css">
+</head>
+<body>
+<div>
+<label class="switch">
+    <input type="checkbox" id="a" onclick=check()>
+    <span class="slider round good"></span>
+</label>
+<span>
+        <p><b>Good</b></p>
+    </span>
+<br/>
+<label class="switch">
+    <input type="checkbox" id="b" onclick=check1()>
+    <span class="slider round cheap"></span>
+</label>
+<span>
+        <p><b>Cheap</b></p>
+    </span>
+<br/>
+<label class="switch">
+    <input type="checkbox" id="c" onclick=check2()>
+    <span class="slider round fast"></span>
+</label>
+<span>
+        <p><b>Fast</b></p>
+    </span>
+</div>
+<script>
+    let a = document.getElementById('a');
+    let b = document.getElementById('b');
+    let c = document.getElementById('c');
+
+    function check() {
+        if (a.checked && b.checked) {
+            c.checked = false;
+
+        }
+    }
+
+    function check1() {
+        if (b.checked && c.checked) {
+            a.checked = false;
+        }
+    }
+
+    function check2() {
+        if (c.checked && a.checked) {
+            b.checked = false
+        }
+    }
+</script>
+</body>
+</html>

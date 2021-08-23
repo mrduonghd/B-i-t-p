@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ</title>
+</head>
+<body>
+<script>
+    var TĐĐGtx = +prompt('Nhập điểm trung bình của các bài kt đánh gia thường xuyên');
+    ĐĐGgk = +prompt('Nhập điểm kt giữa kỳ');
+    ĐĐGck = +prompt('Nhập điểm kr tra cuối kỳ');
+    TB = (TĐĐGtx +  ĐĐGgk + ĐĐGck) / 3
+    if (TB < 6.5) {
+        alert(TB + ' xếp loại hoc lực trung bình');
+    }   else if (TB < 8) {
+            alert(TB + ' xếp loại hcọ lực khá');
+    }
+    else {
+        alert(TB + ' xếp loại học lưc giỏi');
+    }
+</script>
+</body>
+</html>

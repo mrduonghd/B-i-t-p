@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.</title>
+</head>
+<body>
+<script>
+    var tuoi = prompt('Nhập tuổi');
+    if (tuoi <= 0 || tuoi > 100) {
+        alert('tuổi không hợp lệ')
+    }
+    if (tuoi <= 14) {
+        alert('không đủ điều kiện vào học lớp 10')
+    } else {
+        alert('đủ điều kiện vào học lóp 10')
+    }
+</script>
+</body>
+</html>

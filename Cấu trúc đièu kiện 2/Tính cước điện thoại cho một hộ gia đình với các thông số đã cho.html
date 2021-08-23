@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính cước điện thoại cho một hộ gia đình với các thông số đã cho</title>
+</head>
+<body>
+<script>
+    let tg = prompt('Nhập thời gian gọi');
+    if (tg>250) {
+        alert('Cước là ' + (((tg-200)*200+150*400+50*600)+25000) + 'VND');
+    }else if (tg>50) {
+        alert('Cước là ' + (((tg-50)*400+50*600)+25000) + 'VND');
+    }else {
+        alert('Cước là ' + ((tg*600)+25000) + 'VND');
+    }
+</script>
+</body>
+</html>
