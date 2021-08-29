@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('nhap a');
+    let b = prompt('nhap b');
+    let c = prompt('nhap c');
+    let y = ((b) * (b)) - (4 * a * c);
+    if (y < 0) {
+        alert('phuong trinh vo nghiem');
+    } else if (y === 0) {
+        alert('phuong trinh co gnhiem kep x1 = x2 = ' + -b / (2 * a));
+    } else {
+        alert('phuogn trinh co 2 nghiem phan biet la: ' + ' x1= ' + (-b + (Math.sqrt(y)) / (2 * a)) + ' va x2= ' + (-b - (Math.sqrt(y)) / (2 * a)) )
+    }
+</script>
+</body>
+</html>

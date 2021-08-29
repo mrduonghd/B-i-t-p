@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dda3186-c573-4aa9-9573-0779e893a51b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Chuyển từ mét sang feet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Máy tính đơn giản.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Máy tính đơn giản.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Nhập 3 số nguyên và tìm giá trị lớn nhất của ba số nguyên đó.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Tính chỉ số cân nặng của cơ thể.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Tính cước điện thoại cho một hộ gia đình với các thông số đã cho.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Tính diện tích hình vuông.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/game puzzle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tính số ngày trong một tháng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/589333.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/may bay 960x540 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/may bay 960x540 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/may bay 960x540 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/may bay.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/run 960x540 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/run 960x540 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/run 960x540 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/tiger 960x540 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/tiger 960x540 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ảnh/tiger 960x540 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Ứng dụng good-fast-cheap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Ứng dụng good-fast-cheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/ứng dụng vui Do You Love Me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="d034c50e-6393-4947-b8f0-706fc51bd430" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Giải phương trình bậc 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Giải phương trình bậc 2..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Kiểm tra xem một số nhập vào có phải là tuổi của một người không.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Tính diện tích tam giác vuông.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tinh gia dien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tính diện tích hình chữ nhật.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tính lãi ngân hàng (lãi mẹ đẻ lãi con).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tính thuế thu nhập cá nhân.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Hiển hiện giá trị lớn nhất trong mảng đó. In ra giá trị trung bình của các phần tử trong mảng..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Lt 2 bai 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 ,Bai 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 ,Bai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 Bai 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 Bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 Bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Từ điển.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/[Bài tập] Sử dụng các hàm có sẵn của mảng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/bai 9 ; noi 2 mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/tìm xem V có nằm trong mảng số nguyên không.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/đảo ngược các phần tử trong mảng đó..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/đếm số nguyên âm trong một chuỗi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Game đoán số.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Hiển thị 20 số nguyên tố đầu tiên..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Hiển thị ra 20 số trong dãy fibonacci đầu tiên..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Sinh bảng cửu chương.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Tìm số đầu tiên trong dãy fibonacci chia hết cho 5..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Tính tổng của 20 số đầu tiên trong dãy fibonacci..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/nhiệt độ hiện tại.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/tong 30 so chia het cho 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/đếm từ 1 đến 100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +58,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1x7krAmJq8hKyF0yLpjVXXIVmyP" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1xAEONqE0rv75zdetDfTHp6i6YI" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -55,27 +75,63 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo/demo mảng đa chièu.html" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Bài 7.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bài tập/Vòng lặp/Bài 7.html?_ij_reload" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Bài 7.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5dda3186-c573-4aa9-9573-0779e893a51b" name="Changes" comment="" />
-      <created>1629713710645</created>
+      <changelist id="d034c50e-6393-4947-b8f0-706fc51bd430" name="Changes" comment="" />
+      <created>1629789459725</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1629713710645</updated>
-      <workItem from="1629713711773" duration="22000" />
-      <workItem from="1629714026293" duration="291000" />
-      <workItem from="1629714329568" duration="746000" />
+      <updated>1629789459725</updated>
+      <workItem from="1629789460917" duration="7000" />
+      <workItem from="1629789476595" duration="189000" />
+      <workItem from="1629789676204" duration="10464000" />
+      <workItem from="1629809222519" duration="104000" />
+      <workItem from="1629853474535" duration="23584000" />
+      <workItem from="1629900884241" duration="759000" />
+      <workItem from="1629906877718" duration="3821000" />
+      <workItem from="1629911013314" duration="1073000" />
+      <workItem from="1629939953435" duration="6870000" />
+      <workItem from="1629952834648" duration="4771000" />
+      <workItem from="1629963852109" duration="2000" />
+      <workItem from="1629963876358" duration="10231000" />
+      <workItem from="1629983911778" duration="6823000" />
+      <workItem from="1630027508175" duration="40000" />
+      <workItem from="1630027789344" duration="22082000" />
+      <workItem from="1630135722283" duration="7302000" />
+      <workItem from="1630221970271" duration="8012000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bài_tp$Bài_7_html.dat" NAME="Bài 7.html Coverage Results" MODIFIED="1629876698809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

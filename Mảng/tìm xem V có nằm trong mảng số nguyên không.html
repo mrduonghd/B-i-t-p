@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [2,12,-435,23,455,23,7,8,3,19];
+    let check = true
+    let V = +prompt('nhap 1 so bat ky');
+    for (let i=0 ; i<a.length;i++)  {
+        if (V === a[i]) {
+            check = true;
+            break;
+        }else {
+            check = false;
+        }
+    }
+    if (check===true) {
+        alert("V is in the array");
+    }else {
+        alert("V not in the array");
+    }
+</script>
+</body>
+</html>

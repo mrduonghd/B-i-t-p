@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [2,12,-435,23,455,23,7,8,3,19];
+    let V = +prompt('nhapj 1 so bat ky');
+
+    for (let i=0; i<a.length; i++) {
+        if (V === a[i]) {
+            a.splice(i, 1);
+            a.push(0);
+            document.write(a);
+        }
+    }
+</script>
+</body>
+</html>

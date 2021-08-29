@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<input type="text" id="a">
+<input type="button" value="Search" onclick="dich();">
+
+<script>
+    let eng = ["dog","cat","monkey","bird"];
+    let  vn = ["chó","mèo", "khỉ" ,"chim"];
+    let check = true ;
+    let index = -1;
+    function dich() {
+        let a = document.getElementById('a').value;
+        for (let i=0 ;i<eng.length;i++) {
+            if (a === eng[i]) {
+                check = true;
+                index =i;
+                break;
+            }
+            else {
+                check =false;
+            }
+        }if (check) {
+            alert(vn[index]);
+        }else {
+            alert('khong tim thay')
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Viết một chương trình nhập vào 2 chuỗi, sau đó kiểm tra xem hai chuỗi có giống nhau hay không.</title>
+</head>
+<body>
+<script>
+    let a = prompt('nhap chuoi 1');
+    let b = prompt('nhap chuoi 2');
+    let arr1 = a.split("");
+    let arr2 = b.split("");
+    let check = true ;
+    for ( let i=0; i<arr1.length;i++) {
+        for (let j=0 ; j<arr2.length; j++) {
+            if (arr1[i]=== arr2[j]){
+                check = true;
+                break;
+            }
+            else {
+                check = false ;
+            }
+        }
+    }if (check === true) {
+        alert('hai chuoi cua ban hoan toan giong nhau')
+    }else {
+        alert('hai chuoi cua ban khac nhau roi')
+    }
+
+</script>
+</body>
+</html>

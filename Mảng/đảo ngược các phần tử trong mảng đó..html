@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [2,12,-435,23,455,23,7,8,3,19];
+    for (let i=0 ; i<a.length;i++){
+        for (let j=i+1 ;j<a.length; j++ ){
+            if ( a[i] > a[j]){
+                let b = a[i];
+                a[i] = a[j] ;
+                a[j] = b
+            }
+        }
+    }document.write(a);
+</script>
+</body>
+</html>

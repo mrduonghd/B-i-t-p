@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game đoán số</title>
+</head>
+<body>
+<button onclick="on();">Play</button>
+
+<script>
+    function on() {
+        let count = 0 ;
+        let max = parseInt(prompt('Nhap so bat dau'));
+        let min = parseInt(prompt('Nhap so ket thuc'));
+        let a = Math.floor(Math.random()*(max-min)+min);
+        let b;
+        for (count ;count <3 ;count++) {
+            b = parseInt(prompt('Nhap so nguoi dung doan'))
+            if (a===b) {
+                alert('chuc mung ban da doan dung');
+                break;
+            }else if (b<a) {
+                alert('nhap so lon hon');
+            }else {
+                alert('nhap so nho hon');
+            }
+        }if (a!==b ) {
+            alert('ban da thua cuoc')
+        }
+    }
+</script>
+</body>
+</html>
