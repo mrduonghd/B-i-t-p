@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(celsius) {
+            this.celsius = celsius ;
+        }
+        Fahrenheit() {
+            return (9*this.celsius/5)+32;
+        }
+        Kelvin() {
+            return this.celsius+273.15;
+        }
+    }
+    let Temp = +prompt('nhap nhiet do hom nay');
+    if (Temp > -273) {
+        let todayTemp = new Temperature(Temp);
+        alert(todayTemp.Fahrenheit());
+        alert(todayTemp.Kelvin());
+    }else {
+        alert('nhap nhiet do lon hon -273');
+    }
+</script>
+</body>
+</html>

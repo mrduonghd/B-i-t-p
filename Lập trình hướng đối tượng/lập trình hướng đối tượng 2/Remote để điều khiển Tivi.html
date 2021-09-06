@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class TiVi {
+        constructor(status,volume,channel,remoteCode){
+            this.status = status;
+            this.volume = volume;
+            this.channel = channel;
+            this.remoteCode = remoteCode;
+        }
+        changeChannel(number) {
+            if (this.status===true){
+                number = Number(number);
+                this.channel = number ;
+                return this.channel;
+            }else {
+                console.log('tv dang tat');
+            }
+        }
+        changeVolume(number){
+            if (this.status===true){
+                number = Number(number);
+                this.volume += number ;
+                return this.volume;
+            }else {
+                console.log('tv dang tat');
+            }
+        }
+        turnOn() {
+            this.status = true;
+        }
+        turnOf() {
+            this.status = false;
+        }
+    }
+
+    class Remote{
+        constructor(remoteCode) {
+            this.remoteCode = remoteCode ;
+        }
+        changeChannel(tv,number){
+            if (this.remoteCode ===tv.remoteCode){
+                tv.changeChannel(number);
+            }
+        }
+        changeVolume(tv,number){
+            if (this.remoteCode ===tv.remoteCode){
+                tv.changeVolume(number);
+            }
+        }
+        turnOn(tv) {
+            if (this.remoteCode === tv.remoteCode){
+                tv.turnOn(tv);
+            }
+        }
+        turnOf(tv) {
+            if (this.remoteCode === tv.remoteCode){
+                tv.turnOf(tv);
+            }
+        }
+    }
+
+    let TV =new TiVi(false,10,5,1280);
+    let dieukhien = new Remote(1280);
+    dieukhien.turnOn(TV);
+    console.log(TV.status);
+    dieukhien.changeChannel(TV,7);
+    console.log(TV.channel);
+    dieukhien.changeVolume(TV,2);
+    console.log(TV.volume);
+    dieukhien.turnOf(TV);
+    console.log(TV.status);
+</script>
+</body>
+</html>

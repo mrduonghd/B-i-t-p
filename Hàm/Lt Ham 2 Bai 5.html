@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findMin(a, b, c) {
+        a = prompt('nhap a');
+        b = prompt('nhap b');
+        c = prompt('nhap c');
+        let min = a;
+        if (a < b && b < c) {
+            alert('min: ' + a);
+        } else if (b < c) {
+            alert('min: ' + b);
+        } else {
+            alert('min: ' + c);
+        }
+    }
+
+    findMin();
+</script>
+</body>
+</html>

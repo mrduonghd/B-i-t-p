@@ -1,0 +1,35 @@
+#div1 {
+    background-color: rgba(71,71,65,0.47);
+    height: 75px;
+    width: 400px;
+}
+
+#product {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+table,tr {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 700px;
+    text-align: center;
+}
+
+#a {
+    color: #ff0300;
+    padding-left: 400px;
+}
+
+.input {
+    background-color: #19ad03;
+}
+
+tr {
+    height: 50px;
+}
+
+input {
+    height: 30px;
+}

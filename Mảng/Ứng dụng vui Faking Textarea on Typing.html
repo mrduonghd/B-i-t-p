@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center">
+    <h1>Type anything slowly</h1>
+    <textarea id="text" cols="50" rows="10" onkeydown="Press()"></textarea>
+</div>
+
+<script>
+    let arr = ["C", "h", "u", "c", " ", "b", "a", "n", " ", "m", "o", "t", " ", "n", "g", "a", "y", " ", "m", "o", "i", " ", "t", "r", "a", "n", " ", "d", "a", "y", " ", "n", "i", "e", "m", " ", "v", "u", "i", " ", "!"];
+    let a = ""
+    let i = 0;
+
+    function Press() {
+        if (i === arr.length) {
+            a = " ";
+            i = 0;
+            document.getElementById('text').value = "";
+        }
+        a = a + arr[i];
+        document.getElementById('text').value = a;
+        i++;
+    }
+
+</script>
+</body>
+</html>

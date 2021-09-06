@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="quan ly san pham.css">
+</head>
+<body>
+<form>
+    <h3>Add New Product</h3>
+    <div id="div1">
+        <input type="text" placeholder="New Product" id="product"> <input class="input" id="btn-add"
+                                                                          onclick="addProduct()"
+                                                                          type="button" value="Add">
+        <input class="input" id="btn-edit" type="button" value="Edit" onclick="updateProduct()" hidden>
+    </div>
+    <h3>Display All Product</h3>
+    <span><b>Product Name</b></span> <span id="a"></span>
+    <br><br>
+</form>
+<div>
+    <table id="menu">
+    </table>
+</div>
+<script>
+    let arr = [];
+
+    function displayAll() {
+        let a = "";
+        for (let i = 0; i < arr.length; i++) {
+            a += '<tr><td>' + arr[i] + '</td>' +
+                '<td><input class="input" type="button" value="Edit" id="editproduct" onclick="editProduct(' + i + ')"></td>' +
+                '<td><input class="input" type="button" value="Delete" id="deleteproduct" onclick="deleteProduct(' + i + ')" ></td></tr>'
+        }
+        document.getElementById('menu').innerHTML = a;
+    }
+
+    function addProduct() {
+        let product = document.getElementById('product').value;
+        arr.push(product);
+        console.log(arr);
+        document.getElementById('product').value = "";
+        displayAll();
+        grossProduct()
+    }
+
+    function grossProduct() {
+        document.getElementById('a').innerHTML = arr.length + ' Products';
+    }
+
+    function deleteProduct(index) {
+        arr.splice(index, 1);
+        displayAll();
+        grossProduct();
+    }
+
+    function editProduct(index) {
+        document.getElementById('product').value = arr[index];
+        document.getElementById('btn-edit').setAttribute('data-id', index);
+        document.getElementById('btn-edit').hidden = false;
+        document.getElementById('btn-add').hidden = true;
+    }
+
+    function updateProduct() {
+        let index = document.getElementById('btn-edit').getAttribute('data-id');
+        let product = document.getElementById('product').value;
+        arr[index] = product;
+        document.getElementById('product').value = "";
+        displayAll();
+        document.getElementById('btn-edit').hidden = true;
+        document.getElementById('btn-add').hidden = false;
+    }
+
+
+</script>
+</body>
+</html>

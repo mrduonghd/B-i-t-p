@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ["g","d","w","q","d",5,"e","d"]
+    let input = prompt('nhap ky tu b muon kiem tra');
+    function check(array){
+        for (let i=0;i<arr.length;i++) {
+            if (input == arr[i]) {
+                 return arr.indexOf(i);
+            }
+        }
+        return -1;
+    }
+    alert(check(input))
+</script>
+</body>
+</html>

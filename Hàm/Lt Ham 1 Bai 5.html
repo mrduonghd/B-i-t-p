@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let starName = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'] ;
+    let Constellation = ['UrsaMinor', 'Tarurus' , 'Cygnus', 'Lyra', 'Aquila', 'UrsaMajor', 'Leo'] ;
+    let star = prompt('nhap ten sao');
+    function showConstellation(array){
+        for (let i=0 ; i < starName.length;i++) {
+            if (star === starName[i]) {
+                return Constellation[i];
+            }
+        }
+        return "khong phai starname"
+    }
+    alert(showConstellation(star));
+</script>
+</body>
+</html>

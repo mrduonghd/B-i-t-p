@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Rat{
+        constructor(name,weight,speed) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+            this.status = true;
+        }
+        sounding(text){
+            console.log(text);
+        }
+    }
+
+    class Cat{
+        constructor(name,weight,speed) {
+            this.name = name;
+            this.weight = weight;
+            this.speed = speed;
+        }
+        catch(Rat) {
+            if (this.speed > Rat.speed){
+                console.log('da bat duoc chuot');
+            }else {
+                console.log('chuot chay mat roi');
+            }
+        }
+        eat(Rat) {
+            this.weight += Rat.weight;
+            Rat.status = false;
+            return this.weight;
+
+        }
+    }
+
+    let chuot = new Rat('a',10,20);
+    let meo = new Cat('b', 30,10)
+</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <fieldset style="width: 300px">
+        <legend>Mobile a</legend>
+        <p id="batterya">100%</p>
+        <lable for="texting">Soan tin nhan</lable>
+        <textarea name="" id="texting1" cols="30" rows="2"></textarea>
+        <button onclick="send1()">Send</button>
+        <br>
+        <lable for="inbox">Hop thu den</lable>
+        <textarea name="" id="inbox1" cols="30" rows="2"></textarea><br>
+        <lable for="outbox">Tin da gui</lable>
+        <textarea name="" id="outbox1" cols="30" rows="2"></textarea>
+    </fieldset>
+    <fieldset style="width: 300px">
+        <legend>Mobile b</legend>
+        <p id="batteryb">100%</p>
+        <lable for="texting">Soan tin nhan</lable>
+        <textarea name="" id="texting2" cols="30" rows="2"></textarea>
+        <button onclick="send2()">Send</button>
+        <br>
+        <lable for="inbox">Hop thu den</lable>
+        <textarea name="" id="inbox2" cols="30" rows="2"></textarea><br>
+        <lable for="outbox">Tin da gui</lable>
+        <textarea name="" id="outbox2" cols="30" rows="2"></textarea>
+    </fieldset>
+
+<script>
+    class Mobile {
+        constructor(name) {
+            this.name = name;
+            this.battery = 100;
+            this.texingmemory = "";
+            this.inboxmemory = [];
+            this.sendedmemory = [];
+            this.status = true;
+        }
+
+        checkStatus() {
+            return this.status;
+        }
+
+        onOff() {
+            this.status = !this.status;
+        }
+
+        writing(text) {
+            this.texingmemory = text;
+            this.battery--;
+        }
+
+        sendMessage(phone) {
+            phone.inboxmemory.push(this.texingmemory);
+            this.sendedmemory.push(this.texingmemory);
+            this.texingmemory = "";
+        }
+
+        getInbox() {
+            return this.inboxmemory;
+        }
+
+        getOutbox() {
+            return this.sendedmemory;
+        }
+    }
+
+    let mba = new Mobile('a');
+    let mbb = new Mobile('b');
+
+    function send1() {
+        let mess = document.getElementById("texting1").value;
+        mba.writing(mess);
+        mba.sendMessage(mbb);
+        document.getElementById("texting1").value="" ;
+        document.getElementById('outbox1').value = mba.getOutbox(mba.sendedmemory.join(","));
+        document.getElementById('inbox2').value = mbb.getInbox(mbb.inboxmemory.join(","));
+        document.getElementById('batterya').innerHTML = mba.battery + '%';
+    }
+
+    function send2() {
+        let mess = document.getElementById("texting2").value;
+        mbb.writing(mess);
+        mbb.sendMessage(mba);
+        document.getElementById("texting2").value="" ;
+        document.getElementById('outbox2').value = mbb.getOutbox(mbb.sendedmemory.join(","));
+        document.getElementById('inbox1').value = mba.getInbox(mba.inboxmemory.join(","));
+        document.getElementById('batteryb').innerHTML = mbb.battery + '%';
+    }
+
+</script>
+</body>
+</html>

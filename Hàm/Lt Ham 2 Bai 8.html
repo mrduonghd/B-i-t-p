@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = prompt('nhap 1 chuoi');
+    let arr1 = arr.split("");
+    function Reverse(array) {
+        for (let i = 0; i < array.length; i++) {
+            for (let j = i + 1; j < array.length; j++) {
+                if (array[i] > array[j]) {
+                    let b = array[i];
+                    array[i] = array[j];
+                    array[j] = b
+                }
+            }
+        }
+        document.write(array);
+    }
+    Reverse(arr1);
+</script>
+</body>
+</html>

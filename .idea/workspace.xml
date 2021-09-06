@@ -5,43 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d034c50e-6393-4947-b8f0-706fc51bd430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Giải phương trình bậc 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Giải phương trình bậc 2..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Kiểm tra xem một số nhập vào có phải là tuổi của một người không.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/Tính diện tích tam giác vuông.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tinh gia dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tính diện tích hình chữ nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tính lãi ngân hàng (lãi mẹ đẻ lãi con).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cấu trúc đièu kiện 2/tính thuế thu nhập cá nhân.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Hiển hiện giá trị lớn nhất trong mảng đó. In ra giá trị trung bình của các phần tử trong mảng..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Lt 2 bai 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 ,Bai 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 ,Bai 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 Bai 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Lt2 Bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Từ điển.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/[Bài tập] Sử dụng các hàm có sẵn của mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/bai 9 ; noi 2 mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/tìm xem V có nằm trong mảng số nguyên không.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/xếp mảng theo thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/đảo ngược các phần tử trong mảng đó..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/đếm số nguyên âm trong một chuỗi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Game đoán số.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Hiển thị 20 số nguyên tố đầu tiên..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Hiển thị ra 20 số trong dãy fibonacci đầu tiên..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Sinh bảng cửu chương.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Tìm số đầu tiên trong dãy fibonacci chia hết cho 5..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Tính tổng của 20 số đầu tiên trong dãy fibonacci..html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/nhiệt độ hiện tại.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/tong 30 so chia het cho 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/đếm từ 1 đến 100.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Chuyển đổi giữa feet và meters Mục tiêu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Kiểm tra từ đối xứng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 1 Bai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 1 Bai 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 1 Bai 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt Hàm 1 Bai 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Lt ham 1 Bai 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/quan ly san pham.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Ứng dụng quản lý sản phẩm sử dụng hàm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 1/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 1/Xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 1/Xây dựng lớp mô tả điện thoại.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/Adam và Eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/Remote để điều khiển Tivi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/công tắc và bóng đèn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/mèo bắt chuột và ăn chuột.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng/Ứng dụng vui Faking Textarea on Typing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/Tính giai thừa của một số nguyên dương.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/in hinh chu nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/in tam giac vuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp/Tính tổng của 20 số đầu tiên trong dãy fibonacci..html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp/Tính tổng của 20 số đầu tiên trong dãy fibonacci..html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -80,22 +77,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo/demo mảng đa chièu.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Download/Case Study/SimpleCarGame_JavaScript/carsgame/dist/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Bài 7.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Bài tập/Vòng lặp/Bài 7.html?_ij_reload" useBuiltInWebServerPort="true">
+    <configuration name="Bài 7.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Bài tập/Vòng lặp/Bài 7.html?_ij_reload" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.Bài 7.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,6 +116,28 @@
       <workItem from="1630027789344" duration="22082000" />
       <workItem from="1630135722283" duration="7302000" />
       <workItem from="1630221970271" duration="8012000" />
+      <workItem from="1630250662119" duration="1569000" />
+      <workItem from="1630288058873" duration="71000" />
+      <workItem from="1630297816728" duration="9203000" />
+      <workItem from="1630312664979" duration="5998000" />
+      <workItem from="1630328975104" duration="5077000" />
+      <workItem from="1630372194632" duration="19065000" />
+      <workItem from="1630426068920" duration="2427000" />
+      <workItem from="1630457490995" duration="39000" />
+      <workItem from="1630458601194" duration="248000" />
+      <workItem from="1630463741189" duration="7000" />
+      <workItem from="1630465795543" duration="13384000" />
+      <workItem from="1630565909100" duration="7554000" />
+      <workItem from="1630573912104" duration="51000" />
+      <workItem from="1630661938385" duration="161000" />
+      <workItem from="1630685258879" duration="59000" />
+      <workItem from="1630827111303" duration="10422000" />
+      <workItem from="1630837672374" duration="750000" />
+      <workItem from="1630839617020" duration="7748000" />
+      <workItem from="1630856830502" duration="4478000" />
+      <workItem from="1630892498301" duration="19456000" />
+      <workItem from="1630935237441" duration="5209000" />
+      <workItem from="1630940661475" duration="15000" />
     </task>
     <servers />
   </component>
