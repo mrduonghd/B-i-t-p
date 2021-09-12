@@ -5,39 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d034c50e-6393-4947-b8f0-706fc51bd430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hàm/Chuyển đổi giữa feet và meters Mục tiêu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Kiểm tra từ đối xứng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 1 Bai 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 1 Bai 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 1 Bai 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Ham 2 Bai 9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt Hàm 1 Bai 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Lt ham 1 Bai 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/quan ly san pham.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Ứng dụng quản lý sản phẩm sử dụng hàm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 1/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 1/Xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 1/Xây dựng lớp mô tả điện thoại.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/Adam và Eva.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/Remote để điều khiển Tivi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/công tắc và bóng đèn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/mèo bắt chuột và ăn chuột.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Ứng dụng vui Faking Textarea on Typing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/Tính giai thừa của một số nguyên dương.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/in hinh chu nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/in tam giac vuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/enemycar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/game dua xe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/game dua xe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/intro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/over.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/road.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Kiểm tra đối xứng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Di chuyển đối tượng/luffy run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Di chuyển đối tượng/pixlr-bg-result.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp/Tính tổng của 20 số đầu tiên trong dãy fibonacci..html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp/Tính tổng của 20 số đầu tiên trong dãy fibonacci..html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git và HTML/Tạo danh sách.html" beforeDir="false" afterPath="$PROJECT_DIR$/Git và HTML/Tạo danh sách.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Download/Case Study/SimpleCarGame_JavaScript/carsgame/dist/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo/even keyboard.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -138,6 +118,24 @@
       <workItem from="1630892498301" duration="19456000" />
       <workItem from="1630935237441" duration="5209000" />
       <workItem from="1630940661475" duration="15000" />
+      <workItem from="1631068562071" duration="34000" />
+      <workItem from="1631152848378" duration="24947000" />
+      <workItem from="1631193312578" duration="4176000" />
+      <workItem from="1631205113858" duration="156000" />
+      <workItem from="1631235487957" duration="10631000" />
+      <workItem from="1631250464206" duration="107000" />
+      <workItem from="1631273591159" duration="7593000" />
+      <workItem from="1631290137236" duration="373000" />
+      <workItem from="1631290624643" duration="101000" />
+      <workItem from="1631291834338" duration="4511000" />
+      <workItem from="1631344791315" duration="10790000" />
+      <workItem from="1631356687604" duration="55000" />
+      <workItem from="1631356874191" duration="2169000" />
+      <workItem from="1631367002177" duration="4705000" />
+      <workItem from="1631447963491" duration="3286000" />
+      <workItem from="1631456096532" duration="8000" />
+      <workItem from="1631462470881" duration="4304000" />
+      <workItem from="1631466861161" duration="160000" />
     </task>
     <servers />
   </component>

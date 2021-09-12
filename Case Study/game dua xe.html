@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Reverse Vehicle</title>
+    <link rel="stylesheet" href="game dua xe.css"/>
+</head>
+
+<body>
+
+<canvas
+        id="myCanvas"
+        width="500"
+        height="750"
+        style="border: 1px solid black"
+></canvas>
+
+<input id="btn1" type="button" value="Play" onclick="play()" >
+<input id="btn2" type="button" value="Play Again" onclick="reset()" hidden>
+
+<img id="car" src="player.png" height="160" width="78" hidden/>
+<img id="enemyCar" src="enemycar.png" height="200" width="98" hidden/>
+<img id="gameOver" src="over.jpg" height="750" width="500" hidden/>
+
+<script>
+        let button1 = document.getElementById('btn1');
+        let button2 = document.getElementById('btn2');
+        let imgPlayer = document.getElementById("car");
+        let imgEnemy = document.getElementById("enemyCar");
+        let imgGOver = document.getElementById("gameOver");
+        let canvas = document.getElementById("myCanvas");
+        let ctx = canvas.getContext("2d");
+
+
+    function game(){
+        button1.hidden = true;
+        function clearCanvas() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        class Player {
+            constructor(x, y, width, height) {
+                this.x = x;
+                this.y = y;
+                this.width = width;
+                this.height = height;
+                this.a = document.getElementById("myCanvas");
+                this.ctx = this.a.getContext("2d");
+            }
+
+            drawPlayer() {
+                this.ctx.drawImage(
+                    imgPlayer,
+                    this.x,
+                    this.y,
+                    this.width,
+                    this.height
+                );
+            }
+
+            moveRight() {
+                this.x +=5;
+                if (this.x === this.a.width - this.width) {
+                    this.moveLeft();
+                }
+            }
+
+            moveLeft() {
+                this.x -=5;
+                if (this.x === 0) {
+                    this.moveRight();
+                }
+            }
+
+            // clearPlayer() {
+            //     this.ctx.clearRect(this.x, this.y, this.width, this.height);
+            // }
+        }
+
+        let player = new Player(230, 630, 50, 100);
+        player.drawPlayer();
+
+        // Keyboard input with customisable repeat (set to 0 for no key repeat)
+//
+        function KeyboardController(keys, repeat) {
+            // Lookup of key codes to timer ID, or null for no repeat
+            //
+            var timers = {};
+
+            // When key is pressed and we don't already think it's pressed, call the
+            // key action callback and set a timer to generate another one after a delay
+            //
+            document.onkeydown = function (event) {
+                var key = (event || window.event).keyCode;
+                if (!(key in keys))
+                    return true;
+                if (!(key in timers)) {
+                    timers[key] = null;
+                    keys[key]();
+                    if (repeat !== 0)
+                        timers[key] = setInterval(keys[key], repeat);
+                }
+                return false;
+            };
+
+            // Cancel timeout and mark key as released on keyup
+            //
+            document.onkeyup = function (event) {
+                var key = (event || window.event).keyCode;
+                if (key in timers) {
+                    if (timers[key] !== null)
+                        clearInterval(timers[key]);
+                    delete timers[key];
+                }
+            };
+
+            // When window is unfocused we may not get key events. To prevent this
+            // causing a key to 'get stuck down', cancel all held keys
+            //
+            window.onblur = function () {
+                for (key in timers)
+                    if (timers[key] !== null)
+                        clearInterval(timers[key]);
+                timers = {};
+            };
+        };
+
+        // Arrow key movement. Repeat key five times a second
+//
+        KeyboardController({
+            37: function() { player.moveLeft(-1, 0);},
+            39: function() { player.moveRight(1, 0);}
+        }, 30);
+
+
+            // window.addEventListener("keydown", function (event) {
+        //     let key = event.keyCode;
+        //     console.log(key);
+        //     switch (key) {
+        //         case 37:
+        //             player.moveLeft();
+        //             player.drawPlayer();
+        //             break;
+        //         case 39:
+        //             player.moveRight();
+        //             player.drawPlayer();
+        //             break;
+        //     }
+        // });
+        // window.addEventListener("keydown", move);
+        //
+        // function move(evt) {
+        //     console.log(evt.keyCode);
+        //     switch (evt.keyCode) {
+        //         case 37:
+        //             player.moveLeft();
+        //             player.drawPlayer();
+        //             break;
+        //         case 39:
+        //             player.moveRight();
+        //             player.drawPlayer();
+        //             break;
+        //     }
+        // }
+
+
+        const SPEED = 0.4;
+
+        class Enemy {
+            constructor(x, y, width, height) {
+                this.x = x;
+                this.y = y;
+                this.width = width;
+                this.height = height;
+                this.a = document.getElementById("myCanvas");
+                this.ctx = this.a.getContext("2d");
+            }
+
+            drawEnemy() {
+                this.ctx.drawImage(imgEnemy, this.x, this.y, this.width, this.height);
+            }
+
+            moveDown() {
+                this.y += SPEED;
+            }
+
+            speedUp() {
+                this.y += 10 ;
+            }
+
+            // clearEnemy() {
+            //     this.ctx.clearRect(this.x, this.y, this.width, this.height);
+            // }
+        }
+
+
+        let run = setInterval(function () {
+            clearCanvas();
+            displayScore();
+            player.drawPlayer();
+            for (let i = 0; i < arrEnemyCar.length; i++) {
+                arrEnemyCar[i].drawEnemy();
+                arrEnemyCar[i].moveDown();
+            }
+            checkCollision();
+            scoreUp();
+        });
+
+        let arrEnemyCar = [];
+        let x = [];
+        let i = 0;
+        let score = 0;
+
+        function createEnemyCar() {
+            setInterval(function () {
+                x[i] = Math.round(Math.random() * 450);
+                let enemy = new Enemy(x[i], -100, 50, 100);
+                arrEnemyCar.push(enemy);
+            }, 2000);
+        }
+
+        createEnemyCar();
+        console.log(arrEnemyCar);
+
+
+        // function speedUp() {
+        //     for (let i=0;i<arrEnemyCar.length;i++){
+        //         KeyboardController({
+        //             17: function() { arrEnemyCar[i].speedUp(0, 1);}
+        //         }, 30);
+        //     }
+        // }
+
+
+        function checkCollision() {
+            for (let i = 0; i < arrEnemyCar.length; i++) {
+                if (player.x < arrEnemyCar[i].x + arrEnemyCar[i].width && player.y < arrEnemyCar[i].y + arrEnemyCar[i].height &&
+                    player.x > arrEnemyCar[i].x - arrEnemyCar[i].width && player.y > arrEnemyCar[i].y - arrEnemyCar[i].height) {
+                    clearInterval(run);
+                    clearCanvas();
+                    ctx.drawImage(imgGOver, 0, 0);
+                    displayScoreEnd();
+                    button2.hidden = false;
+                }
+            }
+        }
+
+
+        function displayScore() {
+            ctx.font = "30px Verdana";
+            let color = ctx.createLinearGradient(0, 0, canvas.width, 0);
+            color.addColorStop(1, "blue");
+            ctx.fillStyle = color;
+            ctx.fillText(score, 10, 30);
+        }
+
+
+        function scoreUp() {
+            for (let i = 0; i < arrEnemyCar.length; i++) {
+                if (arrEnemyCar[i].y > canvas.height) {
+                    score += 10;
+                    console.log(score);
+                    arrEnemyCar.splice(arrEnemyCar[i], 1)
+                }
+            }
+            return score;
+        }
+
+        function displayScoreEnd() {
+            ctx.font = "30px Verdana";
+            let color = ctx.createLinearGradient(0, 0, canvas.width, 0);
+            color.addColorStop(1, "black");
+            ctx.fillStyle = color;
+            ctx.fillText("Your score is :" + score, 120, 720);
+        }
+    }
+
+
+    function reset() {
+        button2.hidden = true ;
+        game();
+    }
+
+
+    function play() {
+        canvas.style.backgroundImage = "url('road.png')" ;
+        game();
+    }
+
+</script>
+</body>
+</html>
