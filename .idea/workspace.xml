@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d034c50e-6393-4947-b8f0-706fc51bd430" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Case Study/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/enemycar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/game dua xe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/game dua xe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/intro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/over.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/road.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Kiểm tra đối xứng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Di chuyển đối tượng/luffy run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/Di chuyển đối tượng/pixlr-bg-result.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git và HTML/Tạo danh sách.html" beforeDir="false" afterPath="$PROJECT_DIR$/Git và HTML/Tạo danh sách.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lập trình hướng đối tượng/lập trình hướng đối tượng 2/Cờ caro.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +124,7 @@
       <workItem from="1631456096532" duration="8000" />
       <workItem from="1631462470881" duration="4304000" />
       <workItem from="1631466861161" duration="160000" />
+      <workItem from="1631467317517" duration="117000" />
     </task>
     <servers />
   </component>

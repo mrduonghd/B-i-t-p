@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    td {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+</style>
+<body>
+<table id="board" border="1px solid black" cellspacing="0">
+
+</table>
+<script>
+
+    const MAX_ROW = 20;
+    const MAX_COL = 40;
+    const EMPTY_VALUE = "";
+    const VALUE_X = "x";
+    const VALUE_O = "o";
+    const PLAYER_1 = 1;
+    const PLAYER_2 = 2;
+
+    let turn = PLAYER_1;
+    let board = [];
+
+    function createBoard() {
+        let str = "";
+
+        for (let i = 0; i < MAX_ROW; i++) {
+            board[i] = [];
+            str += '<tr>';
+            for (let j = 0; j < MAX_COL; j++) {
+                board[i][j] = VALUE_X;
+                str += `<td id="cell-${i}-${j}" onclick="clickCell(${i},${j})"></td>`;
+                // str +="<td>"+i+"x" + j + "="+ (i*j) +"</td>";
+                // str +="<td onclick='clickCell(this)'></td>";
+            }
+            str += "</tr>";
+        }
+        document.getElementById("board").innerHTML = str;
+        //console.log(board);
+    }
+
+    function clickCell(x, y) {
+        let cell = document.getElementById(`cell-${x}-${y}`);
+
+        if (cell.innerHTML === EMPTY_VALUE) {
+            if (turn === PLAYER_1) {
+                cell.innerHTML = VALUE_X;
+                turn = PLAYER_2;
+            } else {
+                cell.innerHTML = VALUE_O;
+                turn = PLAYER_1;
+            }
+        }
+
+        checkWin(x, y);
+    }
+
+    function getValueCell(x, y) {
+        let value = document.getElementById(`cell-${x}-${y}`).innerHTML;
+        //console.log(x, y);
+        //console.log(value);
+        return value;
+    }
+
+    function checkWin(x, y) {
+        checkVertical(x, y);//check hang doc
+        checkHorizontal(x, y);//check hang ngang
+        checkDiagonal(x, y);//check duong cheo
+    }
+
+    function checkHorizontal(x, y) {//check theo hang ngang
+        let count = 1;
+        let i = 1;
+        while (getValueCell(x, y) === getValueCell(x, y + i)) {
+            count++;
+            i++;
+        }
+
+        let j = 1;
+        while (getValueCell(x, y) === getValueCell(x, y - j)) {
+            count++;
+            j++;
+        }
+        if (count >= 5) {
+            alert("Win roi");// win roi nhung ng sau bam van bao win???
+        }
+    }
+
+    function checkDiagonal(x, y) {//check theo duong cheo
+        let count = 1;
+        let i = 1;
+        while (getValueCell(x, y) === getValueCell(x + i, y + i)) {
+            count++;
+            i++;
+        }
+        let j = 1;
+        while (getValueCell(x, y) === getValueCell(x - j, y - j)) {
+            count++;
+            j++;
+        }
+
+        if (count >= 5) {
+            alert("Win roi");// win roi nhung ng sau bam van bao win???
+        }
+    }
+
+    function checkVertical(x, y) {//check theo hang doc
+        let count = 1;
+        let i = 1;
+        while (getValueCell(x, y) === getValueCell(x + i, y)) {
+            count++;
+            i++;
+        }
+        let j = 1;
+        while (getValueCell(x, y) === getValueCell(x - j, y)) {
+            count++;
+            j++;
+        }
+
+        if (count >= 5) {
+            alert("Win roi");// win roi nhung ng sau bam van bao win???
+        }
+    }
+
+    createBoard();
+</script>
+</body>
+</html>
