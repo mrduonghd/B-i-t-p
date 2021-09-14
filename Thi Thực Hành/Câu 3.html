@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = "abcdefgkiklm";
+    let flag = true;
+    function DemNguyenAm(str){
+        let count =0;
+         for (let i=0;i<str.length;i++){
+             let a = str.charAt(i);
+             if(a === 'a' || a === 'e' || a === 'i' || a === 'o' || a === 'u') {
+                 count++;
+                 flag = false;
+                 break;
+
+             }else {
+                 flag = true;
+             }
+         }
+         if (flag===false){
+             alert('so ky tu nguyen am la '+ count);
+         }else {
+             alert(false);
+         }
+    }
+    DemNguyenAm(str);
+
+    let str1 = prompt('nhap chuoi bat ky');
+    DemNguyenAm(str1);
+</script>
+</body>
+</html>

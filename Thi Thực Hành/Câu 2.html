@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [2,12,-435,23,455,23,7,8,3,19];
+    let check = true
+    function find(b,arr) {
+        for (let i = 0; i < arr.length; i++) {
+            if (b === arr[i]) {
+                check = true;
+                break;
+            } else {
+                check = false;
+            }
+        }
+        if (check === true) {
+            alert("b is in the array " + "nam o vi tri thu " + arr.indexOf(b));
+        } else {
+            alert("b not in the array");
+        }
+    }
+    find(12,arr);
+
+    let str = prompt('nhap vao 1 mang so');
+    let arr1 = str.split("");
+    find(prompt('nhap so can tim'),arr1);
+
+
+</script>
+</body>
+</html>
